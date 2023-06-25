@@ -7,9 +7,11 @@
     padding-top:54px;
 /*    color:#1B1B1B;*/
     font-size:1.15rem;
-    background-image: url('../img/binary_bg.png');
-    background-color: rgba(255,255,255,.96); 
-    background-blend-mode: overlay;}
+    background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.95), 
+      rgba(255, 255, 255, 0.95)
+    ),url('../img/binary_bg.png');}
 
 @media (min-width:992px) {
     body {
